@@ -1,8 +1,9 @@
 const router = require('express').Router();
-const { toDefaultValue } = require('sequelize/types/lib/utils');
-const { Tag, Product, ProductTag, Category } = require('../../models');
+// const { toDefaultValue } = require('sequelize/types/lib/utils');
+const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
+
 
 router.get('/', async (req, res) => {
   // find all tags
